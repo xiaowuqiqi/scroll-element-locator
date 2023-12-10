@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <h1>
+        定位测试
+    </h1>
+    <article>
+        <nav>
+            <ul>
+                <li><a onclick="startLocation(document.getElementById('test-1'))">定位红色方块</a></li>
+                <li><a onclick="startLocation(document.getElementById('test-2'))">定位粉色方块</a></li>
+                <li><a onclick="startLocation(document.getElementById('3-8'))">定位节点3-8</a></li>
+                <li><a onclick="startLocation(document.getElementById('col-2-1'))">定位紫色方块</a></li>
+            </ul>
+        </nav>
+    </article>
+</header>
+<main>
+    <div class="col-1">
+        <article>
+            <div id="test-1"></div>
+        </article>
+        <article>
+            <div id="test-2"></div>
+        </article>
+        <article>
+            <div>
+                <section>
+                    <ul>
+                        <li>节点1-1</li>
+                        <li>节点1-2</li>
+                        <li>节点1-3</li>
+                        <li>节点1-4</li>
+                        <li>节点1-5</li>
+                        <li>节点1-6</li>
+                        <li>节点1-7</li>
+                        <li>节点1-8</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>节点2-1</li>
+                        <li>节点2-2</li>
+                        <li>节点2-3</li>
+                        <li>节点2-4</li>
+                        <li>节点2-5</li>
+                        <li>节点2-6</li>
+                        <li>节点2-7</li>
+                        <li>节点2-8</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>节点3-1</li>
+                        <li>节点3-2</li>
+                        <li>节点3-3</li>
+                        <li>节点3-4</li>
+                        <li>节点3-5</li>
+                        <li>节点3-6</li>
+                        <li>节点3-7</li>
+                        <li id="3-8">节点3-8</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </div>
+    <div class="col-2">
+        <article>
+            <div id="col-2-1"></div>
+        </article>
+    </div>
+</main>
+<script src="./dist/index.js"></script>
+</body>
+</html>
