@@ -1,0 +1,32 @@
+node_modules
+/dist
+/lib
+.dumi/tmp
+.dumi/tmp-test
+.dumi/tmp-production
+.DS_Store
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/pnpm-lock.yaml
+
+# production
+/es
+/docs-dist
+
+# misc
+/coverage
+
+# umi
+.umi
+.umi-production
+.umi-test
+.env.local
+/test
+# ide
+/.vscode
+/.idea
+
+.dumi
+.husky
